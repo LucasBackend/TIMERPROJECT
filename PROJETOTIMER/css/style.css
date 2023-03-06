@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+:root {
+  font-size: 62.5%;
+  --ff-body: 'Roboto';
+  --ff-color-timer:#323238;
+  --fz-timer: 12.6rem;
+  
+}
+
+
+  
+  
+.page {
+  width: 82.1rem;
+  height: 33.6rem;
+  display: flex;
+  gap:19.2rem;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+
+}
+
+.hideColor {
+  display: none;
+}
+
+
+header button {
+  cursor: pointer;
+  background: none;
+  border: none;
+
+}
+
+body {
+  display: grid;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+
+
+}
+
+
+main{ 
+
+  width:32.1rem !important;
+}
+
+header {
+  text-align: right;
+  align-self: start;
+  margin-top: 2rem;
+
+}
+
+
+.hide {
+  display: none;
+
+}
+
+.timer {
+  width: 32.1rem ;
+  height: 14.8rem;
+  font-size: var(--fz-timer);
+  color: var(--ff-color-timer);
+  font-family: var(--ff-body);
+  display: flex;
+  gap:2.5px;
+  text-align: center;
+  
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:4.0rem;
+
+
+}
+
+
+main button {
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
+  cursor: pointer;
+}
+
+.controlsSound {
+  display: grid;
+  grid-template-columns: 13.8rem 13.8rem;
+  gap: 3.2rem;
+
+}
+
+.controlsSound button {
+  width: 13.8rem;
+  height: 15.2rem;
+  border: none;
+  border-radius: 2.4rem;
+  background-color: #E1E1E6;
+  cursor: pointer;
+  
+  
+
+}
+
+.controlsSound .cleanSoundSelected, .controlsSound .cleanSoundSelected svg path {
+  background-color: #02799D;
+  fill:white
+  
+
+}
+
+
+
+.darkbody, .darkbody path  {
+  background-color: black;
+  color:white;
+  fill:white
+}
+
+
+.controlsSound .audioDark, .controlsSound .audioDark path {
+  background-color: #29292E;
+  fill: #C4C4CC;
+}
+
+.audioDark.cleanSoundSelected {
+  background-color: #0A3442;
+}
+
+
+.range-field {
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  height: 0.4rem;
+  background: #323238;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+
+
+}
+
+
+.range-field::-webkit-slider-thumb {
+ -webkit-appearance: none;
+ width: 1.5rem;
+ height: 1.5rem;
+ border-radius: 50%;
+ background-color: #323238 ;
+
+
+
+
+}
+
+
+
+.cleanSlider {
+
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  height: 0.4rem;
+  background: #02799D;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+
+}
+
+.cleanSlider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #02799D ;
+ 
+ 
+ }
+
+ .sliderdark {
+
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  height: 0.4rem;
+  background: white;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+
+
+
+ }
+
+ .sliderdark::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: white ;
+ 
+ 
+ }
+
+ .sliderdark.cleanSlider {
+  -webkit-appearance: none;
+  outline: none;
+  width: 100%;
+  height: 0.4rem;
+  background: #0A3442;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+
+
+ }
+
+ .sliderdark.cleanSlider::-webkit-slider-thumb{
+  -webkit-appearance: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 50%;
+  background-color: #0A3442 ;
+ 
+ 
+
+
+
+
+ }
+ 
+
